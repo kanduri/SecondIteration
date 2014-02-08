@@ -1,0 +1,332 @@
+/* 
+Theme Name: Second Iteration (Dark) 
+Theme URI: http://seconditeration.net/about 
+Description: A frugal attempt on creating a Wordpress Theme.
+Author: Prashanth Kanduri & Uma Damle 
+Author URI: http://seconditeration.net/
+Version: 1.0 
+*/
+
+body {
+text-align:center;
+font-family:helvetica,sans,verdana;
+background-color:black;
+}
+
+#nav a {
+text-decoration:none;
+color:#b2b2b2;
+}
+
+#nav a:hover {
+border-bottom:2px solid #f78500;
+}
+
+#nav a.selected {
+border-bottom:2px solid #f78500;
+font-weight:bold;
+}
+
+h1 {
+color:#f78500;
+font-size:42px;
+font-weight:bold;
+}
+
+li {
+list-style: none;
+}
+
+#wrapper {
+margin: auto;
+width: 700px;
+text-align:left;
+}
+
+#header {
+height:120px;
+position:relative;
+}
+
+#header h1 {
+text-indent:-9999px;
+background-repeat: no-repeat;
+line-height:125px;
+}
+
+#nav {
+height:50px;
+margin-left:178px;
+font-weight: bold;
+font-size: 15px;
+font-family: helvetica,sans,verdana;
+}
+
+#nav li {
+float:left;
+line:height:50px;
+}
+
+#nav li a {
+margin: 0 1.5em;
+}
+
+#timestamp {
+text-align:center;
+}
+
+#timestamp h1 {
+font-size: 48px;
+font-weight: bold;
+color: #f78500;
+letter-spacing: -3px;
+}
+
+#timestamp h2 {
+/*line-height:0.1px;*/
+font-family: helvetica,sans,verdana;
+font-size: 18px;
+font-weight: bold;
+color:#b9b9b9;
+padding-right: 33px;
+}
+
+#timestamp h2 a {
+text-decoration: none;
+color:#b9b9b9;
+}
+
+#timestamp h2 a:hover {
+color:#f78500;
+}
+
+#timestamp small {
+font-size: 16px;
+font-weight: bold;
+font-family: helvetica,sans,verdana;
+line-height: 14px;
+color:#c9c9c9;
+}
+
+#timestamp p {
+color:#f78500;
+line-height: 0px;
+font-size: 14px;
+padding-right: 33px;
+}
+
+#footer {
+background-color:#1f1f1f;
+padding-top:1px;
+padding-bottom:1px;
+color:#d9d9d9;
+font-size: 12px;
+font-family: verdana,sans,helvetica;
+line-height: 2px;
+text-align:center;
+}
+
+#footer a {
+text-decoration: none;
+color: #d9d9d9;
+font-weight: bold;
+}
+
+#footer a:hover {
+color: #f78500;
+}
+
+#posttext {
+margin-top: -15px;
+}
+
+#commentpop {
+text-align:center;
+}
+
+#posttext p {
+font-size: 12px;
+color:#c9c9c9;
+font-family: verdana,sans,helvetica;
+}
+
+#posttext h4 {
+color:#d9d9d9;
+font-size: 12px;
+font-family: verdana,sans,helvetica;
+line-height: 1px;
+}
+
+#posttext h4 a {
+text-decoration: none;
+color: #d9d9d9;
+font-weight: bold;
+}
+
+#posttext h4 a:hover {
+color: #f78500;
+}
+
+#posttext li {
+font-size: 12px;
+color:#c9c9c9;
+font-family: verdana,sans,helvetica;
+line-height:15px;
+}
+
+#posttext p a {
+color:#ffffff;
+text-decoration: none;
+}
+
+#posttext li a {
+color:#ffffff;
+text-decoration: none;
+}
+
+#posttext p a:hover {
+color:#f78500;
+}
+
+#posttext li a:hover {
+color:#f78500;
+}
+
+#secnav p {
+text-align: left;
+font-weight: bold;
+font-size: 15px;
+font-family: helvetica,sans,verdana;
+color: #f78500;
+}
+
+#secnav a {
+text-decoration:none;
+color:#bcbcbc;
+}
+
+#secnav a:hover {
+color: #f78500;
+}
+
+#secnav h2 {
+text-align: right;
+font-weight: bold;
+font-size: 15px;
+font-family: helvetica,sans,verdana;
+color: #f78500;
+}
+
+#secnav h2 a {
+text-decoration:none;
+color:#bcbcbc;
+}
+
+#secnav h2:hover {
+color: #f78500;
+}
+/* Comments Styling */
+
+#comments h3 {
+font-size: 16px;
+font-weight: bold;
+color: #f78500;
+}
+
+#respond {
+font-size: 12px;
+color:#c9c9c9;
+font-family: verdana,sans,helvetica;
+line-height:15px;
+}
+
+#respond a {
+color:#ffffff;
+text-decoration: none;
+}
+
+.commentlist {
+font-size: 12px;
+color:#c9c9c9;
+font-family: verdana,sans,helvetica;
+line-height:15px;
+}
+
+.commentlist a {
+color:#ffffff;
+text-decoration: none;
+}
+
+.commentlist li {
+margin: 15px 0 10px;
+padding: 5px 5px 10px 10px;
+list-style: none;
+}
+
+.commentlist li .avatar {
+	float: right;
+}
+
+.thread-even {
+	background-color: black;
+}
+.thread-alt {
+	background-color: #1f1f1f;
+}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentlist {
+padding-right: 45px;
+}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14px;
+	}
+
+#commentlist ol {
+line-height: 20px;
+}
+
+/*Links Page Styling */
+
+#linkcontent {
+font-size: 12px;
+color:#c9c9c9;
+font-family: verdana,sans,helvetica;
+line-height:15px;
+}
+
+#linkcontent p a {
+color:#ffffff;
+text-decoration: none;
+}
+
+#linkcontent li a {
+color:#ffffff;
+text-decoration: none;
+}
+
+#linkcontent p a:hover {
+color:#f78500;
+}
+
+#linkcontent li a:hover {
+color:#f78500;
+}
+
+#commentlink h3 a {
+	text-decoration: none;
+	color:#b9b9b9;
+	line-height: 48px;
+	text-align: right;
+	}
+#commentlink h3 a:hover {
+	color:#f78500;
+	}
